@@ -1,0 +1,215 @@
+/* ---------------------------------------
+CHP - Colors
+
+name           |  normal   |  hover 
+
+Orange         - #d1691f	#e48c4e
+Blue           - #578cb2	#85abc7
+
+--------------------------------------- */
+
+/* General Colors */
+.btn,
+.btn-large {
+	background-color: #d1691f;
+}
+
+.btn:hover,
+.btn-large:hover {
+	background-color: #e48c4e;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=date]:focus,
+textarea:focus {
+	border-bottom: 1px solid #d1691f;
+    -webkit-box-shadow: 0 1px 0 0 #d1691f;
+    -moz-box-shadow: 0 1px 0 0 #d1691f;
+    box-shadow: 0 1px 0 0 #d1691f; 
+}
+
+a, .menu_bar_navigation ul li a:hover, .menu_bar_navigation ul li.active a, .cbp-spmenu a:hover{
+	color:#578cb2;
+}
+
+.background_color3 {
+	background: #578cb2;
+	color:white;	
+}
+
+.hero_fullscreen {
+	background-color: #578cb2;
+}
+
+.pricing_box.pricing_box_featured {
+	border: solid 2px #578cb2;
+}
+
+.title_highlight {
+	color: #578cb2;
+}
+
+/* Font Styles */
+@font-face {
+    font-family: Biolinum;
+    src: url(../fonts/LinBiolinum_R.otf);
+}
+
+html {
+ 	font-family: 'Biolinum','Merriweather', serif;
+  	font-weight: normal;
+}
+
+h1, h2, h3, h4, h6, .btn, .btn-large, .btn-flat, .menu_bar_navigation, .cbp-spmenu a {
+	font-family: 'Biolinum','Lato', sans-serif;
+} 
+
+/* Navbar Styles */
+.menu_bar_navigation ul li a {
+	line-height: 2.75rem;
+}
+
+.menu_bar {
+	padding-top: 1rem;
+}
+
+#mobile_menu_content {
+	padding-left: 1rem;
+}
+
+/* Home Page */
+.hero_fullscreen {
+	padding-top: 6rem;
+}
+
+/* Sign In Button */
+.signin {
+	color: white;
+	font-size: 1rem;
+	line-height: 2.5rem;
+}
+
+.btn-sm {
+	height: 2.5rem;
+	padding: 0 1rem;
+}
+.menu_bar_navigation ul li a.has_btn,
+a.has_btn {
+	opacity: 1;
+}
+
+a.btn-mobile {
+	line-height: 1.5rem;
+	width: 100px;
+}
+
+a.btn-mobile .signin {
+	line-height: 1.5rem;
+}
+
+
+
+/* Sign Up Section */
+.signup {
+	font-size: 1rem;
+	line-height: 3rem;
+}
+
+/* Footer Styles */
+#footer.subsection {
+	padding-top: 4rem;
+}
+
+#footer a {
+	color: white;
+}
+
+#footer .menu_bar_navigation {
+	box-shadow: none;
+}
+
+#footer .menu_bar_navigation ul,
+#footer .menu_bar_navigation li {
+	float: none;
+}
+
+#footer .copyright {
+	margin-top: 3rem;
+}
+
+#footer .menu_bar_navigation ul li:nth-last-child(2), 
+#footer .menu_bar_navigation ul li:last-child {
+	margin-right: 1rem;
+}
+
+/* Pricing Page Styles */
+#chp_pricing .menu_bar,
+#chp_contact .menu_bar {
+	transform: translateY(0%);
+}
+
+#chp_pricing #cta_download {
+	padding-top: 6rem;
+	margin-top: 3rem;
+}
+
+#chp_pricing .listing_content {
+	padding: 10px;
+}
+
+#chp_pricing .listing_content a {
+	color: black;
+}
+
+#chp_pricing .listing_content:hover {
+	cursor: pointer;
+	outline-style: solid;
+	outline-width: 2px;
+	outline-color: rgba(87, 140, 178, 0.5);
+}
+
+#chp_pricing .listing_content:hover .icon_rounded {
+	border-color: #578cb2;
+}
+
+#chp_pricing .listing_content:hover h6 {
+	color: #578cb2;
+}
+
+/* Contact Page Styles */
+#chp_contact #contact {
+	padding-top: 4rem;
+}
+
+.contact_form .input-field label {
+	color: white;
+}
+
+.contact_form input[type=text], 
+.contact_form input[type=password], 
+.contact_form input[type=email], 
+.contact_form input[type=date], 
+.contact_form textarea {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.contact_form input[type=text]:focus,
+.contact_form input[type=password]:focus,
+.contact_form input[type=email]:focus,
+.contact_form input[type=date]:focus,
+.contact_form textarea:focus {
+	border-bottom: 1px solid #d1691f;
+    -webkit-box-shadow: 0 1px 0 0 #d1691f;
+    -moz-box-shadow: 0 1px 0 0 #d1691f;
+    box-shadow: 0 1px 0 0 #d1691f; 
+}
+
+#chp_contact .icon_list a {
+	color: white;
+}
+
+#chp_contact .icon_list a:hover {
+	color: #e48c4e;
+}
